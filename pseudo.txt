@@ -1,0 +1,36 @@
+1. set numbers to empty list
+	repeat 
+		request user for a number 
+		if number>0, add to numbers 
+	until number=0
+	if number is not empty
+		set max to the largest number in the list
+		print max
+
+2. request user's name 
+	read first_name
+	print "Hello,World"+fist_name.
+	
+3. set numbers to empty list
+	repeat 
+		request user for a number 
+		add input to numbers 
+	if numbers is not empty 
+	set sum to total of numbers 
+	calculate the average by dividing the sum by the total numbers 
+	print average
+	
+4. set grocery_list to empty list 
+	repeat 
+		request an item from the user or enter 'tick'
+		read item
+		if the item is not 'tick', add to grocery_list
+	until item ='tick'
+	sort grocery_list
+	print grocery_list
+
+5. Read "X,Y"
+	Set S = X+Y
+	Set A = S/2
+	Set P =X+Y
+	Print S,A,P
