@@ -1,0 +1,8 @@
+1.The world wide web is a global information system that consists of web pages that use hyperlinks to link to each other. The linking allows users to navigate from one web page to another, as well as to other pages from around the world. 
+
+2.The differences between front-end and back-end developers is that front-end focuses more on the visual aesthtics of and user experience, includinn everything that the user sees, hears and interacts with. The tools that are used for these are HTML,CSS and JavaScript.
+  Back-end developers focus on the behind-the-scenes functionality, such as handling servers operations and data management ensuring that everything runs smoothly. Back-end developers make use of servers,databases such as MongoDB and MySQL; and languages such as JavaScript, Python and PHP.
+
+3.In the Google Query example, when the user hits enter and the and the request us made, the back-end's job is to process that request and fetch the relevant results.
+
+4.The MERN stack is one the technologies that is used to create a web application. It consists of technologies such as MongoDB,Express, React and Node.js. 
