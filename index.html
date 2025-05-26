@@ -1,80 +1,77 @@
 <!DOCTYPE html>
-<html lang ="en">
-    <head>
-        <meta charset = "UTF-8" />
-        <meta name ="viewport" 
-        content="width =device -width, initial-scale=1 shrink to fit=no"/>
-        <title>All About Knitting </title>
-    </head>
-    <body>
-      <article>
-        <header>
-          <h1>All About Knitting</h1>
-          <figure>
-            <img src="https://tse3.mm.bing.net/th/id/OIP.rA7QM6tVICucxSpebTnEBAHaEH?cb=iwc1&w=1200&h=667&rs=1&pid=ImgDetMain " 
-            alt="A picture of wool and knitting needles">
-          </figure>
-          <nav> 
-            <h2>Menu:</h2> 
-            <ul>
-                <li><a href="#About">What is Knitting?</a></li>
-                <li><a href="#Tools">Basic Tools</a></li>
-                <li><a href="#Techniques">Basic Techniques</a></li>
-                <li><a href="#Beginners"> Common Projects for Beginners</a></li>
-                <li><a href="#Benefits">Benefits of Knitting</a></li>
-            </ul>
-          </nav>  
-        </header>
-        <main>
-          <section id="About"> 
+<head>
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    
+</head>
+<body>
+    
+    <h2>Demonstrating the Box Model</h2>
+    <style>
+         p {
+        font-family:Verdana;
+        color: red;
+    }
+    </style>
+   
+    <p id="first-paragragh" class="second-paragragh" style="color: magenta;">
+        The CSS box model is essentially a box that wraps around every HTML element. 
+        It consists of: borders, padding, margins, and the actual content.
+    </p>
 
-            <h2> What is Knitting?</h2>
-            <p> Knitting is a method of ceating fabric by interlocking loops of yarn using knitting needles. It is one of the most popular forms of textile art that is used to ake garments,accessories, home decor etc.</p>
+    <p class="second-paragragh">This is the second paragragh </p>
 
-          </section>
-          <section id="Tools">
-            <h3> Basic  Tools:</h3>
-            <ul>
-              <li> Yarn: Comes in various weights(lace, worsted, bulky)and fibers(wool, cotton, acrylic etc).</li>
-              <li> Knitting Needles: Available in different materials (metal, bamboo, plastic) and styles:
-                <li>Circular Needles:Good for knitting in the round or large projects.</li>
-                <li>Straight Needles: Good for flat pices eg.scarves.</li>
-                <li> Double-pointed Needles:Used for small circular knitting eg.socks.</li>
-              </li>
-            </ul>
-          </section>
+    <style>
+        .second-paragragh{
+            color:green;
+        }
+    </style>
 
-          <section id="Techniques">
-            <h3> Basic Techniques: </h3>
-            <ol>
-              <li> Casting on:The foundation row of stiches.</li>
-              <li>Knit Stitch: This is the most basic stitch, and creates a smooth fabric.</li>
-              <li>Purl Stitch: Used with the knit stitch to create texture.</li>
-              <li> Binding Off: Finshes the edge so that the stitches do not unravel.</li>
-            </ol>
-          </section>
-          <section id="Beginners">
-            <h3> Common Projects for beginners:</h3>
-            <ul>
-              <li>Scarves</li>
-              <li> Lttle decoration pieces</li>
-              <li>Beanies</li>
-            </ul>
-          </section>
+    <div class="div1">
+        <style>
+            .div1{
+                background-color: lightblue;
+                width: 300px;
+            }
 
-          <section id="Benefits">
-            <h3>Benefits of Knitting:</h3>
-            <p> There are many benefits from knitting. Just to name a few, studdies have shown that knitting reduces stress and anxiety, enhances fine motor skills and offers creative expression.
-            </p>
-            <aside>
-              <p>
-                You can do more research on the benefits of knitting.
-              </p>
-            </aside>
-          </section>
+            .div1{
+                background-color: lightblue;
+                width:300px;
+                border: 15px solid green;
+            }
+            .div1{
+                background-color: lightblue;
+                width:300px;
+                border: 15px solid green;
+                padding: 50px;
+            }
 
-          
-        </main>
-      </article>
-      </body>
+            .div{
+                background-color: lightblue;
+                width:300px;
+                border: 15px solid green;
+                padding:50px;
+                margin:20px;
+            }
+            
+        </style>
+        This text is the content of the box. 
+        We have added a 50px padding, 20px margin and a 15px green border.
+        
+    </div>
+
+    <div class="div2"> The total width of this element is 350px
+        <style>
+            .div2 {
+                width:320px;
+                padding:10px;
+                border:5px solid gray;
+                margin:0;
+
+            }
+            
+        </style>       
+    </div>
+    
+</body>
 </html>
